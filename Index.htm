@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Female Delusion Calculator</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="calculator">
+  <h2>Female Delusion Calculator</h2>
+  <label for="age">Age:</label>
+  <input type="range" id="age" min="20" max="70" value="35">
+  <output for="age" id="ageOutput">35</output><br><br>
+
+  <label for="race">Race:</label>
+  <select id="race">
+    <option value="any">Any</option>
+    <option value="white">White</option>
+    <option value="black">Black</option>
+    <option value="hispanic">Hispanic</option>
+    <option value="asian">Asian</option>
+    <option value="native">Native</option>
+  </select><br><br>
+
+  <label for="height">Min. Height:</label>
+  <input type="range" id="height" min="49" max="96" value="69">
+  <output for="height" id="heightOutput">5'9"</output><br><br>
+
+  <label for="income">Min. Income:</label>
+  <input type="range" id="income" min="15000" max="500000" step="1000" value="50000">
+  <output for="income" id="incomeOutput">$50,000</output><br><br>
+
+  <label for="excludeObese">Exclude Obese:</label>
+  <input type="checkbox" id="excludeObese" checked><br><br>
+
+  <button onclick="calculate()">Find Out</button>
+
+  <div id="result"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

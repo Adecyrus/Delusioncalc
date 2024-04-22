@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+#calculator {
+  max-width: 400px;
+  margin: 0 auto;
+  background: #FAF9F6;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0437F2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+output {
+  font-weight: bold;
+}
+
+#result {
+  margin-top: 20px;
+}
